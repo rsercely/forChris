@@ -1,21 +1,4 @@
-﻿'Browser("(99+) Feed | LinkedIn").Dialog("Message from webpage").WinButton("OK").Click @@ hightlight id_;_5834444_;_script infofile_;_ZIP::ssf405.xml_;_
-'For xxx = 1 To 3 Step 1
-'	if Browser("(99+) Feed | LinkedIn").InsightObject("Delete Existing Portlet").Exist (3) then @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf407.xml_;_
-'		Browser("(99+) Feed | LinkedIn").InsightObject("Delete Existing Portlet").Click @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf407.xml_;_
-'	else
-'		Exit for
-'	end if
-'Next
-'Browser("(99+) Feed | LinkedIn").Page("Manage pages").Frame("editorContainer_2").WebButton("addPortletButtonLabel").Click @@ hightlight id_;_Browser("(99+) Feed | LinkedIn").Page("Manage pages").Frame("editorContainer 2").WebButton("addPortletButtonLabel")_;_script infofile_;_ZIP::ssf399.xml_;_
-'Browser("Manage pages").InsightObject("Add Portlets -> Portlet Name").Click @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf406.xml_;_
-'Browser("Add Portlets").Page("Add Portlets").WebEdit("PortletSearchTree.namePattern").Click @@ hightlight id_;_Browser("Manage pages").Page("Add Portlets 2").WebEdit("PortletSearchTree.namePattern")_;_script infofile_;_ZIP::ssf400.xml_;_
-'Browser("Add Portlets").Page("Add Portlets").WebEdit("PortletSearchTree.namePattern").Set "self" @@ hightlight id_;_Browser("Manage pages").Page("Add Portlets 2").WebEdit("PortletSearchTree.namePattern")_;_script infofile_;_ZIP::ssf400.xml_;_
-'Browser("Add Portlets").Page("Add Portlets").WebButton("findPortletsLabel").Click @@ hightlight id_;_Browser("Manage pages").Page("Add Portlets 2").WebButton("findPortletsLabel")_;_script infofile_;_ZIP::ssf401.xml_;_
-'Browser("Add Portlets").Page("Add Portlets").WebCheckBox("ch_0").Set "ON" @@ hightlight id_;_Browser("Manage pages").Page("Add Portlets 2").WebCheckBox("ch 0")_;_script infofile_;_ZIP::ssf402.xml_;_
-'Browser("Add Portlets").Page("Add Portlets").WebButton("addPortletsWindoidButtonLabel").Click @@ hightlight id_;_Browser("Manage pages").Page("Add Portlets 2").WebButton("addPortletsWindoidButtonLabel")_;_script infofile_;_ZIP::ssf403.xml_;_
-'
-'foo = 1
-'
+﻿
 
 'until no more browsers exist
 While Browser("creationtime:=0").Exist(0)
